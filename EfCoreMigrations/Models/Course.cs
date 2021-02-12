@@ -5,11 +5,11 @@ using System.Text;
 
 namespace EfCoreMigrations.Models
 {
-    public class Course
+    public class SchoolCourse
     {
 
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public int CourseID { get; set; }
+        public int SchoolCourseID { get; set; }
         public string Title { get; set; }
         public int Credits { get; set; }
 
